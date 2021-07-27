@@ -1,0 +1,7 @@
+C:\Users\mis19\Rythm Game WAF\Assets\Scripts\ImportOsuBeatmap\bin\Debug\ImportOsuBeatmap.exe.config
+C:\Users\mis19\Rythm Game WAF\Assets\Scripts\ImportOsuBeatmap\bin\Debug\ImportOsuBeatmap.exe
+C:\Users\mis19\Rythm Game WAF\Assets\Scripts\ImportOsuBeatmap\bin\Debug\ImportOsuBeatmap.pdb
+C:\Users\mis19\Rythm Game WAF\Assets\Scripts\ImportOsuBeatmap\obj\Debug\ImportOsuBeatmap.csproj.AssemblyReference.cache
+C:\Users\mis19\Rythm Game WAF\Assets\Scripts\ImportOsuBeatmap\obj\Debug\ImportOsuBeatmap.csproj.CoreCompileInputs.cache
+C:\Users\mis19\Rythm Game WAF\Assets\Scripts\ImportOsuBeatmap\obj\Debug\ImportOsuBeatmap.exe
+C:\Users\mis19\Rythm Game WAF\Assets\Scripts\ImportOsuBeatmap\obj\Debug\ImportOsuBeatmap.pdb
