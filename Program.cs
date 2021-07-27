@@ -12,7 +12,7 @@ namespace ImportOsuBeatmap
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            BeatMap beatmap = OsuLoaderLib.OsuLoader.LoadDotOsu("C:/Assets/Osu/KatyushaMania.osu");
+            BeatMap beatmap = OsuLoaderLib.OsuLoader.LoadDotOsu("C:/Users/Rong/Desktop/warwickStudies/2021Summer/ImportOsuBeatmap/Songs/KatyushaMania.osu");
             Console.WriteLine("Passed");
         }
     }
