@@ -270,16 +270,19 @@ namespace OsuLoaderLib
                 switch (note.Column)
                 {
                     case 0:
-                        _out += "64,";
+                        _out += "51,";
                         break;
                     case 1:
-                        _out += "192,";
+                        _out += "153,";
                         break;
                     case 2:
-                        _out += "320,";
+                        _out += "256,";
                         break;
                     case 3:
-                        _out += "448,";
+                        _out += "358,";
+                        break;
+                    case 4:
+                        _out += "460,";
                         break;
                 }
                 _out += "192,";
@@ -292,16 +295,19 @@ namespace OsuLoaderLib
                 switch (note.Column)
                 {
                     case 0:
-                        _out += "64,";
+                        _out += "51,";
                         break;
                     case 1:
-                        _out += "192,";
+                        _out += "153,";
                         break;
                     case 2:
-                        _out += "320,";
+                        _out += "256,";
                         break;
                     case 3:
-                        _out += "448,";
+                        _out += "358,";
+                        break;
+                    case 4:
+                        _out += "460,";
                         break;
                 }
                 _out += "192,";
@@ -331,17 +337,20 @@ namespace OsuLoaderLib
                 //Detect the note column
                 switch (int.Parse(splitted[0]))
                 {
-                    case 64:
+                    case 51:
                         toReturn.Column = 0;
                         break;
-                    case 192:
+                    case 153:
                         toReturn.Column = 1;
                         break;
-                    case 320:
+                    case 256:
                         toReturn.Column = 2;
                         break;
-                    case 448:
+                    case 358:
                         toReturn.Column = 3;
+                        break;
+                    case 460:
+                        toReturn.Column = 4;
                         break;
                     default:
                         return new Note();
@@ -369,17 +378,20 @@ namespace OsuLoaderLib
                 //Detect the note column
                 switch (int.Parse(splitted[0]))
                 {
-                    case 64:
+                    case 51:
                         toReturn.Column = 0;
                         break;
-                    case 192:
+                    case 153:
                         toReturn.Column = 1;
                         break;
-                    case 320:
+                    case 256:
                         toReturn.Column = 2;
                         break;
-                    case 448:
+                    case 358:
                         toReturn.Column = 3;
+                        break;
+                    case 460:
+                        toReturn.Column = 4;
                         break;
                     default:
                         return new LongNote();
